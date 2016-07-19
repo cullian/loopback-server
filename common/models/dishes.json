@@ -10,11 +10,6 @@
       "type": "string",
       "required": true
     },
-    "mixins": {
-      "type": {
-        "TimeStamp": true
-      }
-    },
     "description": {
       "type": "string",
       "required": true
@@ -36,6 +31,9 @@
       "required": true,
       "default": "0"
     }
+  },
+  "mixins": {
+      "TimeStamp": true
   },
   "validations": [],
   "relations": {
